@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuyển thành viên</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background-color: #121212;
+        color: #f4f4f4;
+      }
+      header {
+        background-color: #1c1c1c;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        color: #00ccff;
+        font-size: 2.5em;
+      }
+      header p {
+        font-size: 1.2em;
+      }
+      section {
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .benefits {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      .benefit-box {
+        background-color: #1e1e1e;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
+        margin: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+      .benefit-box h3 {
+        color: #11b514;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .cta {
+        margin-top: 30px;
+        background-color: #00ccff;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        color: #121212;
+        font-weight: bold;
+      }
+      .cta:hover {
+        background-color: #00b0e0;
+      }
+      footer {
+        background-color: #1c1c1c;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+      }
+      footer p {
+        margin: 0;
+        font-size: 0.9em;
+      }
+      .newsletter {
+        margin-top: 40px;
+      }
+      .newsletter input[type="email"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+      }
+      .newsletter button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #00ccff;
+        color: #121212;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .newsletter button:hover {
+        background-color: hsl(193, 65%, 11%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>2K CRYME</h1>
+      <p>Khám phá tương lai của tài chính với công nghệ blockchain</p>
+    </header>
+
+    <section>
+      <h2>Đội ngũ thành viên</h2>
+      <div class="benefits">
+        <div class="benefit-box">
+          <h3>Trí Cushin</h3>
+          <img
+            src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.15752-9/462547608_883898913837820_2709560561535731822_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=TJVkJkKHWOoQ7kNvgExsIXL&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AFJlisOoiUOPw8ebewaV3bf&oh=03_Q7cD1QHQ21itksrzpnfO1q3ObbpN0wTiy1V5JhsZXNiXz6LUMA&oe=6732DE36"
+            alt=""
+          />
+          <p>Bậc thầy phân tích kĩ, kinh nghiệm trong future trên 5 năm</p>
+        </div>
+
+        <div class="benefit-box">
+          <h3>Tiến Mim</h3>
+          <img
+            src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/462563856_961047172525125_4577274902135607817_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=B1Dfy3Yy-9UQ7kNvgGHklhN&_nc_ht=scontent.fsgn5-8.fna&_nc_gid=AFJlisOoiUOPw8ebewaV3bf&oh=03_Q7cD1QF0sx6EtOeYhnR6B2eMrM622lVG0_ND2kbV3SccSUc4xQ&oe=6732F597"
+            alt=""
+          />
+          <p>Chuyên gia Airdop, kẻ hủy diệt sàn Dex đánh Memecoin 1 ăn 1000</p>
+        </div>
+        <div class="benefit-box">
+          <h3>An ninh mạng</h3>
+          <img
+            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462559845_1477781189596876_6108116741427119340_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Ws5Wtb6PdCwQ7kNvgGThKqJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_gid=A_LJw2-oOU0ytTFs7PhHhI6&oh=03_Q7cD1QFvK8WGP1-G6HM8wbNAqmFqzAw6X7XLRUXW4mXum_L7eg&oe=6732D007"
+            alt=""
+          />
+          <p>1 gậy là mấy thằng xạo lồn gục tại chỗ</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Đăng kí tại đây</h2>
+
+      <form id="signup">
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit">Đăng kí</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 2K Crypto</p>
+    </footer>
+  </body>
+</html>
